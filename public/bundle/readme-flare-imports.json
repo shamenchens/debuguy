@@ -3,9 +3,7 @@
     "name": "flare.analytics.cluster.AgglomerativeCluster",
     "size": 3938,
     "imports": [
-      "flare.analytics.cluster.CommunityStructure",
-      "flare.analytics.cluster.HierarchicalCluster",
-      "flare.analytics.cluster.MergeEdge"
+      "flare.analytics.cluster.CommunityStructure"
     ]
   },
   {
@@ -26,7 +24,7 @@
     "name": "flare.analytics.cluster.MergeEdge",
     "size": 743,
     "imports": [
-      "flare.analytics.cluster.HierarchicalCluster"
+      "flare.analytics.cluster.AgglomerativeCluster"
     ]
   }
 ]

@@ -15,29 +15,29 @@
 }
 
 .node:hover,
-.node--source,
-.node--target {
+.nodeSource,
+.nodeTarget {
   font-weight: 700;
 }
 
-.node--source {
+.nodeSource {
   fill: #2ca02c;
 }
 
-.node--target {
+.nodeTarget {
   fill: #d62728;
 }
 
-.link--source,
-.link--target {
+.linkSource,
+.linkTarget {
   stroke-opacity: 1;
   stroke-width: 2px;
 }
 
-.link--source {
+.linkSource {
   stroke: #d62728;
 }
 
-.link--target {
+.linkTarget {
   stroke: #2ca02c;
 }
