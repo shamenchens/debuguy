@@ -1,0 +1,32 @@
+[
+  {
+    "name": "flare.analytics.cluster.AgglomerativeCluster",
+    "size": 3938,
+    "imports": [
+      "flare.analytics.cluster.CommunityStructure",
+      "flare.analytics.cluster.HierarchicalCluster",
+      "flare.analytics.cluster.MergeEdge"
+    ]
+  },
+  {
+    "name": "flare.analytics.cluster.CommunityStructure",
+    "size": 3812,
+    "imports": [
+      "flare.analytics.cluster.HierarchicalCluster"
+    ]
+  },
+  {
+    "name": "flare.analytics.cluster.HierarchicalCluster",
+    "size": 6714,
+    "imports": [
+      "flare.analytics.cluster.MergeEdge"
+    ]
+  },
+  {
+    "name": "flare.analytics.cluster.MergeEdge",
+    "size": 743,
+    "imports": [
+      "flare.analytics.cluster.HierarchicalCluster"
+    ]
+  }
+]
